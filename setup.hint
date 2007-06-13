@@ -1,0 +1,7 @@
+category: Graphics
+requires: cygwin
+sdesc: "Scanning post-processing tool"
+ldesc: "unpaper is a post-processing tool for scanned sheets of paper, 
+especially for book pages that have been scanned from previously created 
+photocopies. The main purpose is to make scanned book pages better 
+readable on screen after conversion to PDF."

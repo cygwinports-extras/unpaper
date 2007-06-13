@@ -1,0 +1,85 @@
+unpaper
+------------------------------------------
+unpaper is a post-processing tool for scanned sheets of paper, 
+especially for book pages that have been scanned from previously created 
+photocopies. The main purpose is to make scanned book pages better 
+readable on screen after conversion to PDF.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+
+Build requirements:
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+
+Canonical website:
+  http://unpaper.berlios.de/
+
+Canonical download:
+  http://download.berlios.de/unpaper/
+
+-------------------------------------------
+
+Build instructions:
+  unpack unpaper-0.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./unpaper-0.2-X.cygport all
+
+This will create:
+  /usr/src/unpaper-0.2-X-src.tar.bz2
+  /usr/src/unpaper-0.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/unpaper.exe
+  /usr/share/doc/Cygwin/unpaper-0.2.README
+  /usr/share/doc/unpaper-0.2/html/img/_after.png
+  /usr/share/doc/unpaper-0.2/html/img/_arrow.png
+  /usr/share/doc/unpaper-0.2/html/img/_before.png
+  /usr/share/doc/unpaper-0.2/html/img/blackfilter-detail.png
+  /usr/share/doc/unpaper-0.2/html/img/blackfilter.png
+  /usr/share/doc/unpaper-0.2/html/img/blurfilter-detail.png
+  /usr/share/doc/unpaper-0.2/html/img/blurfilter.png
+  /usr/share/doc/unpaper-0.2/html/img/border-align.png
+  /usr/share/doc/unpaper-0.2/html/img/border-scan.png
+  /usr/share/doc/unpaper-0.2/html/img/deskew-detail1.png
+  /usr/share/doc/unpaper-0.2/html/img/deskew-detail2.png
+  /usr/share/doc/unpaper-0.2/html/img/deskew.png
+  /usr/share/doc/unpaper-0.2/html/img/documentation.odg
+  /usr/share/doc/unpaper-0.2/html/img/input-pages.png
+  /usr/share/doc/unpaper-0.2/html/img/layout-templates.png
+  /usr/share/doc/unpaper-0.2/html/img/mask-center.png
+  /usr/share/doc/unpaper-0.2/html/img/mask-scan-detail1.png
+  /usr/share/doc/unpaper-0.2/html/img/mask-scan-detail2.png
+  /usr/share/doc/unpaper-0.2/html/img/mask-scan.png
+  /usr/share/doc/unpaper-0.2/html/img/multiple-input-files.png
+  /usr/share/doc/unpaper-0.2/html/img/multiple-output-files.png
+  /usr/share/doc/unpaper-0.2/html/img/noisefilter.png
+  /usr/share/doc/unpaper-0.2/html/img/nospam.js
+  /usr/share/doc/unpaper-0.2/html/img/output-pages.png
+  /usr/share/doc/unpaper-0.2/html/img/processing-order.png
+  /usr/share/doc/unpaper-0.2/html/img/sheetspages.png
+  /usr/share/doc/unpaper-0.2/html/img/standard-deviation.png
+  /usr/share/doc/unpaper-0.2/html/img/style.css
+  /usr/share/doc/unpaper-0.2/html/img/x-click-but04.gif
+  /usr/share/doc/unpaper-0.2/html/index.html
+  /usr/share/doc/unpaper-0.2/license.txt
+  /usr/share/doc/unpaper-0.2/readme.txt
+
+------------------
+
+Port Notes:
+
+----- version 0.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -1,0 +1,20 @@
+DESCRIPTION="Scanning post-processing tool"
+HOMEPAGE="http://unpaper.berlios.de/"
+SRC_URI="mirror://berlios/${PN}/${PN}-${PV//./_}.tgz"
+SRC_DIR=.
+
+src_compile() {
+	lndirs
+	cd ${B}
+	rm -f unpaper # linux binary included in sources
+	verbose gcc ${CFLAGS} -Wall ${LDFLAGS} -o unpaper.exe src/unpaper.c
+}
+
+src_install() {
+	cd ${B}
+	dobin unpaper.exe
+
+	cd ${S}
+	dodoc license.txt readme.txt
+	cp -r doc/ ${D}/usr/share/doc/${P}/html
+}
